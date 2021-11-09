@@ -1,0 +1,31 @@
+topo :
+	blocage de double mouvement de pion
+	ajout du vestaire 
+	ajout des nom et affichage des pion pour le plateau 2
+	ajout des éléments fixe d'environnement 
+	
+	
+	
+	
+	blocage des double ouvement :
+		si les deux tampon sont non nuls (vérifier que ça peut etre le cas)
+			alors la case actuellement checké doit recapter un pion pour que le programme continue
+			
+		
+		if ppion et psoldat différent de 0
+			while digitalRead (readpin) != 1
+		
+		
+AJOUT VESTIAIRE : 
+	avant de poser une pièce sur le plateau il faut la faire passer par le vestiaire qui dira en 
+	quoi l'habiller via lcd, puis poser la pièce sur le plateau.
+	ne pas accepter la pièce si elle n'est pas passé par le vestiaire
+	
+	amorçage programme 
+	boucle while (pas lu tout les pions)
+		while (verif du vestiaire  != 1)
+			envoi de message d'accroche (type de soldat)
+		lecture du plateau
+		
+		
+	
