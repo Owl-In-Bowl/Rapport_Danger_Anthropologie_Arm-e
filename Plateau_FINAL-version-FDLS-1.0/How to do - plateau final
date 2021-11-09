@@ -1,0 +1,16 @@
+@ Présentation : les éléments constituants ce dossier sont à destination du plateau de jeu mettant en avant la relation entre les soldats et les éléments extérieurs, ET entre les soldats.
+Il y a prise en compte de la saillance.
+
+le fichiers ino est destiné à l'IDE arduino et sers de code principale.
+Les autres fichiers sont toutes les classes pour un code POO nécéssaire au fonctionnement du code principale, AINSI que le fichier de "pilotage" ( name : "define_Lea_Procject_F" ) des variables (comme le nombre de cases, la semantique pour les états, les variables pilotes, etc)
+
+@ Attention : le dossier des classe n'est PAS interchangeable avec le dossier des classes prévu pour le plateau DANGER. (dans les faits, certaines parties sont identiques et d'autre non,
+par simplicité il est conseillé de rester dans cet "environnement" plateau FINAL)
+
+@ compilation : le code principale est à ouvrir dans l'IDE Arduino
+Il est prévu pour être utilisé avec un arduino nano every ==> utiliser cette carte pour la compilation 
+Voir le document read-me de l'accueuil pour les raisons de ce choix Hardware
+installer les librairie au bon endroit pour qu'elles soient compilé avec le code principale
+
+@ Annotation : les annotations de code ( en particulier la partie méthode de développement) en en-tête ne sont pas nécéssairement à jour des modifications effectués, cependant les 
+indications dans le code sont opérationnelles.
